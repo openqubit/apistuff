@@ -5,21 +5,23 @@ ini_set("display_errors", 1);
 
 $data_string = '
 {
-	"officeId": 1,
-	"firstname": "Petra",
-	"lastname": "Yton",
-	"externalId": "786YYH7",
-	"dateFormat": "dd MMMM yyyy",
-	"locale": "en",
-	"active": true,
-	"activationDate": "29 January 2015",
-    "submittedOnDate":"29 January 2015"
+ "dateFormat": "dd MMMM yyyy",
+  "locale": "en",
+  "transactionDate": "16 August 2016",
+  "transactionAmount": "500.00",
+  "paymentTypeId": "12",
+  "note": "check payment",
+  "accountNumber": "Pasay000000010",
+  "checkNumber": "che123",
+  "routingCode": "rou123",
+  "receiptNumber": "rec123",
+  "bankNumber": "ban123"
 }
 ';
 
-$endpoint = "https://demo.openmf.org/mifosng-provider/api/v1/";
-$username= "mifos";
-$password= "password";
+$endpoint = "https://197.234.237.253:8443/mifosng-provider/api/v1/";
+$username= "benk";
+$password= "12345";
 $tenant = "default";
 
 $method = "POST";
