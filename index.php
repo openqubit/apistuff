@@ -30,7 +30,7 @@ $method = "POST";
 $api_target = "clients";
 $extra_parameters = '';
 //$extra_parameters = "&command=close";
-$URL= $endpoint.$api_target." 
+$URL= $endpoint.$api_target.";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,$URL);
