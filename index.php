@@ -19,7 +19,7 @@ $data_string = '
 }
 ';
 
-$endpoint = "https://197.234.237.253:8443/mifosng-provider/api/v1/";
+$endpoint = "https://197.234.237.253:8443/fineract-provider/api/v1/";
 $username= "benk";
 $password= "12345";
 $tenant = "default";
