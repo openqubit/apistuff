@@ -37,7 +37,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Content-Type: application/json',
-    'Content-Length: ' . strlen($data_string)),
+    'Content-Length: ' . strlen($data_string),
      'Fineract-Platform-TenantId:default') 
 );
 curl_setopt($ch, CURLOPT_TIMEOUT, 30); //timeout after 30 seconds
